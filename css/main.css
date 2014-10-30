@@ -1,0 +1,205 @@
+#frontera {
+	position: relative;
+	width: 1024px;
+	height: 788px;
+	z-index: 1;
+	left: 26px;
+	top: 11px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+#Header {
+	position: absolute;
+	width: 886px;
+	height: 67px;
+	z-index: 2;
+	left: 59px;
+	top: 28px;
+	background-color: #666666;
+}
+
+#apDiv1 {
+	position: absolute;
+	width: 154px;
+	height: 39px;
+	z-index: 3;
+	left: 93px;
+	top: 46px;
+}
+.logo {
+	position: absolute;
+	width: 135px;
+	height: 48px;
+	z-index: 2;
+	left: 25px;
+	top: 10px;
+	background-color: #990000;
+}
+#Search {
+	position: absolute;
+	width: 196px;
+	height: 48px;
+	z-index: 3;
+	top: 10px;
+	left: 165px;
+	background-color: #006699;
+}
+#Login {
+	position: absolute;
+	width: 510px;
+	height: 48px;
+	z-index: 2;
+	left: 365px;
+	top: 10px;
+	background-color: #003300;
+}
+.button {
+	position: absolute;
+	width: 76px;
+	height: 36px;
+	z-index: 1;
+	top: 8px;
+	left: 325px;
+	background-color: #FFFF00;
+}
+#Register {
+	top: 8px;
+	left: 407px;	
+}
+.content {
+	position: absolute;
+	width: 519px;
+	height: 267px;
+	z-index: 3;	
+	background-color: #9933FF;
+}
+#Carrusel {
+	left: 20px;
+	top: 20px;
+}
+.ads {
+	position: absolute;
+	width: 315px;
+	height: 261px;
+	z-index: 3;
+	left: 631px;
+	top: 126px;
+	background-color: #663300;
+}
+#Anounnce {
+	left: 589px;
+	top: 22px;
+}
+#Soon {
+	left: 26px;
+	top: 305px;
+}
+#Footer {
+	position: absolute;
+	width: 1009px;
+	height: 62px;
+	z-index: 6;
+	left: 6px;
+	top: 718px;
+	background-color: #666666;
+	
+}
+#BestSeller {
+	z-index: 7;
+	left: 396px;
+	top: 306px;
+	background-color: #66FF99;
+}
+#Logo2 {
+	position: absolute;
+	width: 144px;
+	height: 48px;
+	z-index: 1;
+	top: 10px;
+	left: 843px;
+	background-color: #990000;
+}
+#About {
+	left: 29px;
+	top: 10px;
+}
+.opcFoot {
+	position: absolute;
+	width: 165px;
+	height: 47px;
+	z-index: 3;
+	left: 230px;
+	top: 11px;
+	background-color: #000066;
+}
+#Contac {
+	left: 425px;
+	top: 11px;	
+}
+#Legal {	
+	left: 610px;
+	top: 11px;	
+}
+#boton {
+	top: 209px;
+	left: 37px;
+}
+#boton2 {
+	left: 199px;
+	top: 200px;	
+}
+#BestCont {
+	position: absolute;
+	width: 511px;
+	height: 239px;
+	z-index: 1;
+	left: 4px;
+	top: 24px;
+	background-color: #330033;
+}
+.games {
+	position: absolute;
+	width: 245px;
+	height: 68px;
+	z-index: 1;
+	background-color: #00CCFF;
+	left: 4px;
+	top: 7px;
+}
+#Game2 {	
+	left: 4px;
+	top: 80px;	
+}
+#Game3 {	
+	left: 5px;
+	top: 155px;
+}
+#Game4 {
+	left: 259px;
+	top: 7px;	
+}
+#Game5 {
+	left: 257px;
+	top: 80px;
+}
+#Game6 {
+	left: 257px;
+	top: 155px;
+}
+.gamesImg {
+	position: absolute;
+	width: 103px;
+	height: 57px;
+	z-index: 1;
+	left: 6px;
+	top: 7px;
+	background-color: #111311;
+}
+#Content {
+	position: absolute;
+	width: 922px;
+	height: 580px;
+	z-index: 8;
+	left: 44px;
+	top: 115px;
+}
