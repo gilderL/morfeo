@@ -8,4 +8,4 @@
 </head>
 
 <body>
-<div id="frontera">
+<div id="Border">

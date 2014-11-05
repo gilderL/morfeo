@@ -1,8 +1,8 @@
  <div id="Content">
-	<div id="Carrusel" class="content"></div>
+	<div id="Carrusel" class="gamesContent"></div>
 	<div id="Anounnce" class="ads"></div>
 	<div id="Soon" class="ads"></div> 
-	<div id="BestSeller"class="content">
+	<div id="BestSeller"class="gamesContent">
 		<div id="BestCont">
 			<div id="Game1" class="games">
 				<div id="Img1" class="gamesImg"></div>
