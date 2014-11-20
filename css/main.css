@@ -8,18 +8,21 @@
 	top: 11px;
 	border-style: solid;
         border-width: 0px;
-	border-color:#999900;
+	border-color:#000000;
 	margin: 0 auto;
 	
 }
 #Header {
 	position: absolute;
-	width: 886px;
+	width: 921px;
 	height: 67px;
 	z-index: 2;
-	left: 59px;
+	left: 44px;
 	top: 28px;
 	background-color: rgba(0,0,0,0.01);
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
 }
 
 #apDiv1 {
@@ -32,16 +35,17 @@
 }
 .logo {
 	position: absolute;
-	width: 135px;
+	width: 165px;
 	height: 48px;
 	z-index: 2;
-	left: 25px;
+	left: 0px;
 	top: 10px;
 	background-color: #990000;
+	background-image: url("../img/Logo.png");
 }
 #Search {
 	position: absolute;
-	width: 196px;
+	width: 200px;
 	height: 48px;
 	z-index: 3;
 	top: 10px;
@@ -50,12 +54,12 @@
 }
 #Login {
 	position: absolute;
-	width: 510px;
+	width: 556px;
 	height: 48px;
 	z-index: 2;
 	left: 365px;
 	top: 10px;
-	background-color: #003300;
+	background-color: rgba(0,0,0,0.2);
 }
 .button {
 	position: absolute;
@@ -63,23 +67,25 @@
 	height: 36px;
 	z-index: 1;
 	top: 8px;
-	left: 325px;
+	left: 396px;
 	background-color: #FFFF00;
 }
 #Register {
 	top: 8px;
-	left: 407px;	
+	left: 473px;	
 }
 .gamesContent {
 	position: absolute;
-	width: 519px;
+	width: 523px;
 	height: 267px;
 	z-index: 3;	
 	background-color: #9933FF;
+	background-size: 523px 267px;
 }
 #Carrusel {
 	left: 20px;
 	top: 20px;
+	background-image:url("../img/carrusel1.png");
 }
 .ads {
 	position: absolute;
@@ -93,31 +99,37 @@
 #Anounnce {
 	left: 589px;
 	top: 22px;
+	background-image: url("../img/Anounce.png");
 }
 #Soon {
 	left: 26px;
 	top: 305px;
+	background-image: url("../img/Soon.png");
+	
 }
 #Footer {
 	position: absolute;
-	width: 1009px;
+	width: 1024px;
 	height: 62px;
 	z-index: 6;
-	left: 6px;
+        left: 6px;
 	top: 718px;
-	background-color: rgba(0,0,0,0.01);
+	background-color: rgba(0,0,0,0.5);
+	left: 0px;
+	top: 726px;
 	
 }
 #BestSeller {
 	z-index: 7;
 	left: 396px;
 	top: 306px;
-	background-color: #66FF99;
+	background-color: #505050 ;
+	font-weight:bold;
+	background-image:url("../img/BestSeller.png");
+	background-repeat: repeat-x;
 }
 #Logo2 {
 	position: absolute;
-	width: 144px;
-	height: 48px;
 	z-index: 1;
 	top: 10px;
 	left: 843px;
@@ -134,7 +146,8 @@
 	z-index: 3;
 	left: 230px;
 	top: 11px;
-	background-color: #000066;
+	background-color: #787878 ;
+	text-align: center;
 }
 #Contac {
 	left: 425px;
@@ -154,50 +167,78 @@
 }
 #BestCont {
 	position: absolute;
-	width: 511px;
+	width: 519px;
 	height: 239px;
 	z-index: 1;
-	left: 4px;
-	top: 24px;
-	background-color: #330033;
+	left: 1px;
+	top: 25px;
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
 }
 .games {
 	position: absolute;
-	width: 245px;
-	height: 68px;
+	width: 262px;
+	height: 78px;
 	z-index: 1;
-	background-color: #00CCFF;
-	left: 4px;
-	top: 7px;
+	background-color: #A8A8A8 ;
+	left:0px;
+	top:7px;
 }
 #Game2 {	
-	left: 4px;
-	top: 80px;	
+	left: 0px;
+	top: 83px;	
+	background-color: #707070;
 }
 #Game3 {	
-	left: 5px;
-	top: 155px;
+	left: 0px;
+	top: 161px;
 }
 #Game4 {
-	left: 259px;
+	left: 257px;
 	top: 7px;	
 }
 #Game5 {
 	left: 257px;
-	top: 80px;
+	top: 83px;
+	background-color: #707070;
 }
 #Game6 {
 	left: 257px;
-	top: 155px;
+	top: 161px;
 }
 .gamesImg {
 	position: absolute;
 	width: 103px;
-	height: 57px;
+	height: 78px;
 	z-index: 1;
-	left: 6px;
-	top: 7px;
+	left: 0px;
+	top: 0px;
 	background-color: #111311;
+}
+#Img1{
+background-image:url("../img/titan.png");
+background-size: 103px 78px;
+}
+#Img2{
+background-image:url("../img/sims4.png");
+background-size: 103px 78px;
+}
+#Img3{
+background-image:url("../img/crysis3.png");
+background-size: 103px 78px;
+}
+#Img4{
+background-image:url("../img/fifa15.png");
+background-size: 103px 78px;
+}
+#Img5{
+background-image:url("../img/mass.png");
+background-size: 103px 78px;
+}
+#Img6{
+background-image:url("../img/battle4.png");
+background-size: 103px 78px;
 }
 #Content {
 	position: absolute;
@@ -207,8 +248,14 @@
 	left: 44px;
 	top: 115px;
 	background-color: rgba(0,0,0,0.01);
+	border-style: solid;
+        border-width: 0px;
+	border-color:#000000;
 	
 }
+form{
+        float:left;
+        }
 body{
  background-image: url("../img/Carbon.png");
 
