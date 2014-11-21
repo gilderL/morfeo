@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('/templates/head');
 		$this->load->view('/templates/header');
-		$this->load->view('/templates/register');
+		$this->load->view('/templates/content');
 		$this->load->view('/templates/footer');
 	}
 }
