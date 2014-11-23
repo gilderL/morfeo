@@ -1,3 +1,16 @@
+<?php
+/********************
+*File name: contet.php
+*System Name: morfeo
+*Module Name: welcome
+*Class Name: none
+*Dependencies: View			
+*Revision: 2014-11-22
+*Author:  
+*e-mail Author: @uabc.edu.mx
+*Copyright Notice: Derechos reservados, UABC 2014
+*********************/
+?>
  <div id="Content">
 	<div id="Carrusel" class="gamesContent"></div>
 	

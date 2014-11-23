@@ -1,11 +1,30 @@
+ <?php
+/********************
+*File name: register.php
+*System Name: morfeo
+*Module Name: registration
+*Class Name: none
+*Dependencies: view			
+*Revision: 2014-11-22
+*Author: Rodrigo Morteo 
+*e-mail Author: rodrigo@uabc.edu.mx
+*Copyright Notice: Derechos reservados, UABC 2014
+*********************/
+?>
+<?php
+#[TODO]: Form fields do not conform to use case definition (see "Registrar" use case in the document "O-001 Propuesta de Proyecto"
+		#echo form_password($data["passwordVerification"]);
+		#echo form_button($data["cancelBtn"]);
+?>
+
  <div id="Content">
      <div id='reg'>
-      <H1>Create a Account</H1>
-        <form method="" action=""> 
+      <H1>Welcome to the registration form</H1>
+        <?php echo form_open("users/processRegistration"); ?>
                         
                         <div id="containerUsername" class="containerRes">
                         <label for="username">Username:</label>
-                        <input class="input" type="text" size="20" id="username" name="username"/>
+                        <?php echo form_input($username);?>
 			<br/></div>
                         
                         <div id="containerName" class="containerRes">
@@ -20,7 +39,8 @@
                         
                         <div id="containerEmail" class="containerRes">
                         <label for="email">Email:</label>
-                        <input class="input" type="email" size="20" id="email" name="email" placeholder="example@domain.com"/>
+                        <?php echo form_input($email);?>
+                        
 			<br/></div>
                         
                         <div id="containerReemail" class="containerRes">
@@ -30,7 +50,7 @@
                         
                         <div id="containerPassword" class="containerRes">
                         <label for="password">Password:</label>
-                        <input class="input" type="password" size="20" id="password" name="password"/>
+                        <?php echo form_password($password);?>
 			<br/></div>
                         
                         <div class="terms">
@@ -49,8 +69,7 @@
                         
                         <input type="checkbox" name="i_agree_check" id="i_agree_check">
                         <label for="i_agree_check" id="label_agree">Agree and I'm over 18</label>
-			<input class="buttom" type="submit" value="Create"/> 
-     
-            </form>
+						<?php echo form_submit('register', 'Submit');?>    
+            <?php echo form_close(); ?>
     </div>
 </div>

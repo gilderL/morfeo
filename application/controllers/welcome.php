@@ -1,28 +1,67 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/********************
+*File name: welcome.php
+*System Name: morfeo
+*Module Name: none
+*Class Name: Welcome
+*Dependencies: MY_Controller			
+*Revision: 2014-11-22
+*Author: Rodrigo Morteo 
+*e-mail Author: rodrigo@uabc.edu.mx
+*Copyright Notice: Derechos reservados, UABC 2014
+*********************/
+class Welcome extends MY_Controller {
 
-class Welcome extends CI_Controller {
-
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -  
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in 
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see http://codeigniter.com/user_guide/general/urls.html
-	 */
+/**********
+Name: index
+Description: Displays welcome page  
+Requirements: 
+Input Values none
+Output Values: none
+Notes:
+***********/
 	public function index()
 	{
-		$this->load->view('/templates/head');
-		$this->load->view('/templates/header');
-		$this->load->view('/templates/content');
-		$this->load->view('/templates/footer');
+		$data=array( //login Form fields and properties
+			"username"=>array(
+				'name'		=> 'username',
+				'id'		=> 'username',
+				'value'		=> '',
+				'maxlength'	=> '45',
+				'size'		=> '20',
+				'style'		=> '',
+				'placeholder'=>'Username'
+            ),
+			"password"=>array(
+				'name'		=> 'password',
+				'id'		=> 'password',
+				'value'		=> '',
+				'maxlength'	=> '45',
+				'size'		=> '20',
+				'style'		=> '',
+				'placeholder'=>'Password'			
+			),
+			"submit"=>array(
+				'name'		=> 'submit',
+				'type'		=> 'submit',
+				'value'		=> 'Login',
+				'class'		=> 'buttom',
+				'content' => 'Login'
+			),
+			"register"=>array(
+				'name'		=> 'register',
+				'type'		=> 'submit',
+				'value'		=> 'register',
+				'class'		=> 'buttom',
+				'content' => 'Register'
+				)
+		);
+		
+		$this->load->helper("form"); //loads form helper as aid for the login form
+		$this->load->view('templates/head');
+		$this->load->view('templates/header',$data);
+		$this->load->view('templates/content');
+		$this->load->view('templates/footer');
 	}
 }
 
