@@ -24,7 +24,7 @@
 			echo '        <!--<div id="In" class="button"></div>
         <div id="Register"class="button"></div>-->
 ';
-			echo '<div id="In" class="button"><?php echo form_button($submit);?></div>';
+			echo '<div id="In" class="button">'.form_button($submit).'</div>';
         	echo form_close();
 	  		echo form_open("users/register");
       		echo '<div id="Register" class="button">';
