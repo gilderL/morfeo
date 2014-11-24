@@ -11,14 +11,19 @@
 *Copyright Notice: Derechos reservados, UABC 2014
 *********************/
 ?>
- <div id="Footer">
-    <div id="Logo2" class="logo"></div>
-	
-    <div id="About" class="opcFoot"><td style="vertical-align:middle;" ><p>About</p></td></div>
-	
-    <div id="Faqs"class="opcFoot"><td style="vertical-align:middle;" ><p>FaQs</p></td></div>
-    <div id="Contac"class="opcFoot"><td style="vertical-align:middle;" ><p>Conctact</p></td></div>
-    <div id="Legal"class="opcFoot"><td style="vertical-align:middle;" ><p>Legal</p></td></div>
+  <div id="Footer">
+    <div id="Logo2" class="logo">
+    	<a href=".."><img src="../img/Logo.png"></img></a>
+    </div>
+	<div id="About" class="opcFoot">
+		<a href=".."><h3>About</h3> </a>
+	</div>
+	<div id="Contact" class="opcFoot">
+		<a href=".."><h3>Contact</h3> </a>
+	</div>
+	<div id="Legal" class="opcFoot">
+		<a href=".."><h3>Legal</h3> </a>
+	</div>
   </div>
 </div>
 </body>
