@@ -6,13 +6,25 @@
 *Class Name: none
 *Dependencies: View			
 *Revision: 2014-11-22
-*Author:  
-*e-mail Author: @uabc.edu.mx
+*Author:  felix castillo
+*e-mail Author: felix.castillo@uabc.edu.mx
 *Copyright Notice: Derechos reservados, UABC 2014
 *********************/
 ?>
- <div id="Content">
-	<div id="Carrusel" class="gamesContent"></div>
+	<div id="Content">
+	<div id="Carrusel" class="gamesContent">
+
+		
+			<a href=""><img src="../img/carrusel1.png" /></a>
+			<img src="../img/carrusel2.png" data-caption="#htmlCaption" />
+			<img src="../img/carrusel3.png"  />
+			
+		
+		<!-- Captions for Orbit -->
+		<span class="orbit-caption" id="htmlCaption"><strong>I'm A Badass Caption:</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+		
+	
+	</div>
 	
 	
 	<div id="Anounnce" class="ads"></div>
