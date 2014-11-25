@@ -12,18 +12,18 @@
 *********************/
 ?>
 <div id="Header">
-    <div id="LogoUp" class="logo">
-    	<a href=".."><img src="../img/Logo.png"></img></a>
-    </div>
+    <div id="Logo" class="logo"></div>
+    <div id="Search"></div>    
     <div id="Login">
     	<?php 
 		if(isset($username)){
 		
-			echo form_open("users-login"); 
+			echo form_open("users/login"); 
 			echo form_input($username);
 			echo form_input($password);
-			echo '<!--
-       			  <div id="Register" class="button"></div>-->';
+			echo '        <!--<div id="In" class="button"></div>
+        <div id="Register"class="button"></div>-->
+';
 			echo '<div id="In" class="button">'.form_button($submit).'</div>';
         	echo form_close();
 	  		echo form_open("users/register");
@@ -35,4 +35,4 @@
 		?>
             
     </div>
-    <div id="Search"></div>    
+</div>
