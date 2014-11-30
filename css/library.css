@@ -1,0 +1,76 @@
+/********************
+*File name: register.css
+*System Name: morfeo
+*Module Name: registration
+*Class Name: none
+*Dependencies: none			
+*Revision: 2014-11-22
+*Author:  gilder
+*e-mail Author: gilder.librado@uabc.edu.mx
+*Copyright Notice: Derechos reservados, UABC 2014
+*********************/
+	
+#tit{
+	position:fijo;
+    font-family:Arial, Helvetica;
+	width: 918px;
+	height: 50px;
+	z-index: 6;
+	background-color: rgba(0,0,0,0.3);
+	font-weight:bold;
+    font-size: 30px;
+}
+.text{
+	text-align:center;
+	line-height:1.5em;
+}
+
+#list{
+	position:absolute;
+	width: 918px;
+	height: 520px;
+	z-index: 6;
+	background-color: rgba(0,0,0,0.2);
+}
+.gam{
+	position: fijo;
+	width: 890px;
+	height: 50px;
+	z-index: 6;
+}
+.gamCol1{
+	background-color: rgba(0,0,0,0.2);
+}
+.gamCol2{
+	background-color: rgba(0,0,0,0.4);
+}
+.styleFue{
+	font-family:Arial, Helvetica;
+	font-size: 18px;
+	line-height:3.5em;
+	
+}
+
+#gam1{
+}
+
+#gam2{
+	position:absolute;
+	width: 450px;
+	height: 50px;
+	left:2px;
+	
+}
+
+#gam3{
+	position:absolute;
+	width: 250px;
+	height: 50px;
+	left:451px;
+}
+#gam4{
+	position:absolute;
+	width: 190px;
+	height: 50px;
+	left:700px;
+}
